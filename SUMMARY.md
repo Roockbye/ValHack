@@ -20,4 +20,5 @@
   * [Script](challengechasers/script/README.md)
     * [Contournement des droits](challengechasers/script/contournement-des-droits.md)
     * [Escalation](challengechasers/script/escalation.md)
-  * [OSINT](challengechasers/osint.md)
+  * [OSINT](challengechasers/osint/README.md)
+    * [Boite à outils](challengechasers/osint/boite-a-outils.md)
