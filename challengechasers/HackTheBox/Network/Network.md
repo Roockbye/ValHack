@@ -2,7 +2,7 @@
 
 Le modèle OSI a été défini dans le cadre de la norme ISO/OSI dans le but de créer un modèle de référence permettant la communication entre différents systèmes techniques via divers dispositifs et technologies, tout en assurant la compatibilité. Le modèle OSI utilise sept couches différentes, organisées de manière hiérarchique, pour atteindre cet objectif. Ces couches représentent les phases dans l'établissement de chaque connexion à travers laquelle les paquets envoyés passent. Ainsi, la norme a été créée pour tracer visuellement comment une connexion est structurée et établie.
 
-![modèle OSI](osi.png)
+![modèle OSI](image/osi.png)
 
 |Couche|Fonction|
 |---|---|
@@ -23,7 +23,7 @@ Lorsque deux systèmes communiquent, les sept couches du modèle OSI sont traver
 
 Le modèle TCP/IP est également un modèle de référence en couches, souvent appelé la Suite de Protocoles Internet. Le terme TCP/IP représente les deux protocoles Transmission Control Protocol (TCP) et Internet Protocol (IP). 
 
-![modèle TCP/IP](Pasted image 20240307105516.png)
+![modèle TCP/IP](image/Pasted image 20240307105516.png)
 
 
 Les tâches les plus importantes de TCP/IP sont :
