@@ -34,13 +34,19 @@ Supposons que nous avons été chargés de réaliser un test d'intrusion "boîte
 
 ### Couche No.1 : Présence sur Internet
 
+La première couche que nous devons franchir est la couche "Présence sur Internet", où nous nous concentrons sur la recherche des cibles que nous pouvons investiguer. Si le périmètre du contrat nous permet de rechercher des hôtes supplémentaires, cette couche est encore plus critique que pour les cibles fixes uniquement. Dans cette couche, nous utilisons différentes techniques pour trouver des domaines, des sous-domaines, des netblocks, et de nombreux autres composants et informations qui présentent la présence de l'entreprise et de son infrastructure sur Internet.
+
 L'objectif de cette couche est d'identifier tous les systèmes cibles et interfaces possibles qui peuvent être testés.
 
 ### Couche No.2 : Passerelle
 
+Ici, nous essayons de comprendre l'interface de la cible atteignable, comment elle est protégée et où elle est située dans le réseau. En raison de la diversité, des fonctionnalités différentes et de certaines procédures particulières, nous aborderons cette couche plus en détail dans d'autres modules.
+
 L'objectif est de comprendre avec quoi nous traitons et ce que nous devons surveiller.
 
 ### Couche No.3 : Services Accessibles
+
+Dans le cas des services accessibles, nous examinons chaque destination pour tous les services qu'elle offre. Chacun de ces services a un objectif spécifique qui a été installé pour une raison particulière par l'administrateur. Chaque service a certaines fonctions, qui conduisent donc à des résultats spécifiques. Pour travailler efficacement avec eux, nous devons savoir comment ils fonctionnent. Sinon, nous devons apprendre à les comprendre.
 
 Cette couche vise à comprendre la raison et la fonctionnalité du système cible et à acquérir les connaissances nécessaires pour communiquer avec lui et l'exploiter à nos fins de manière efficace.
 
@@ -48,9 +54,13 @@ C'est la partie de l'énumération que nous traiterons principalement dans ce mo
 
 ### Couche No.4 : Processus
 
+Chaque fois qu'une commande ou une fonction est exécutée, des données sont traitées, qu'elles soient saisies par l'utilisateur ou générées par le système. Cela démarre un processus qui doit accomplir des tâches spécifiques, et de telles tâches ont au moins une source et une cible.
+
 L'objectif ici est de comprendre ces facteurs et d'identifier les dépendances entre eux.
 
 ### Couche No.5 : Privilèges
+
+Chaque service fonctionne par l'intermédiaire d'un utilisateur spécifique dans un groupe particulier avec des permissions et des privilèges définis par l'administrateur ou le système. Ces privilèges nous offrent souvent des fonctions que les administrateurs négligent. Cela se produit souvent dans les infrastructures Active Directory et de nombreux autres environnements et serveurs d'administration spécifiques où les utilisateurs sont responsables de plusieurs domaines d'administration.
 
 Il est crucial de les identifier et de comprendre ce qui est et n'est pas possible avec ces privilèges.
 
