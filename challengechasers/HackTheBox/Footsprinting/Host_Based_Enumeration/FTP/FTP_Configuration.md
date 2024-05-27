@@ -1,4 +1,4 @@
-# Default Configuration
+# Default Configuration FTP
 
 Le serveur FTP vsFTPd est couramment utilisé sur les distributions Linux. Sa configuration par défaut se trouve dans /etc/vsftpd.conf. 
 
