@@ -7,7 +7,7 @@ Les tests d'intrusion, et donc l'énumération, sont des processus dynamiques. C
 2. Énumération basée sur l'hôte
 3. Énumération basée sur le système d'exploitation
 
-![Image](./enum-method3.png)
+![Image](./image/enum-method3.png)
 
 **Note :** Les composants de chaque couche représentés ici sont les catégories principales et non une liste complète de tous les composants à rechercher. De plus, il convient de mentionner que les première et deuxième couches (Présence sur Internet, Passerelle) ne s'appliquent pas tout à fait à l'intranet, comme une infrastructure Active Directory. Les couches pour l'infrastructure interne seront couvertes dans d'autres modules.
 
